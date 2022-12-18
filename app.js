@@ -39,7 +39,10 @@ const Picker = require("./services/picker");
 
 
 /* Rotas */
+const ProductRouter = require("./routes/ProductRouter");
+
 app.get("/", Picker.pick);
+app.post("/products", ProductRouter);
 
 /* Rota não Encontrada */
 app.use((req, res, next) => {
