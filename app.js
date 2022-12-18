@@ -43,6 +43,7 @@ const ProductRouter = require("./routes/ProductRouter");
 
 app.get("/", Picker.pick);
 app.post("/products", ProductRouter);
+app.get("/products", ProductRouter);
 
 /* Rota não Encontrada */
 app.use((req, res, next) => {

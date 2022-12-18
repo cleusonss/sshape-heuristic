@@ -5,7 +5,6 @@ const { log } = console;
 const Product = require("../models/Product");
 
 exports.save = async (req, res, next) => {
-  log(req.body);
   try {
     const { cod, name, aisle, location } = req.body;
 
@@ -17,7 +16,9 @@ exports.save = async (req, res, next) => {
 
     const savedProduct = await Product.findOne({ cod });
     if (savedProduct) {
-      res.status(401).send({ status: "error", message: "Product already exists" });
+      res
+        .status(401)
+        .send({ status: "error", message: "Product already exists" });
     }
 
     const newProduct = await Product.create({
@@ -28,6 +29,19 @@ exports.save = async (req, res, next) => {
     });
 
     res.status(200).json(newProduct);
+  } catch (error) {
+    res.status(501).send({ status: "error", message: error.message });
+  }
+};
+
+exports.find = async (req, res, next) => {
+  try {
+    const products = await Product.find({});
+    log(products);
+    if (products) {
+      res.status(200).json(products);
+    }
+    res.status(401).send({ status: "error", message: "Products nof found" });
   } catch (error) {
     res.status(501).send({ status: "error", message: error.message });
   }
