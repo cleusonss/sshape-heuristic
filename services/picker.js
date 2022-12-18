@@ -3,33 +3,43 @@ require("dotenv").config();
 const { log } = console;
 
 // Corredores 6
-//const order = [''] //Lista de Medicamentos
-
-// cod: { type: Integer, default: null},
-// name: { type: String, default: null},
-// quantity: { type: Integer, default: null},
-// aisle: { type: Integer, default: null},
-// location: { type: String, default: null}
 
 exports.pick = async (order) => {
   // 1. Recebe uma ordem = lista de produtos
   // 2. Ordena a Ordem
-   order = order.sort(compare);
+  order = order.sort(compare);
 
+  //3. Busca o Primeiro Corredor
+  let i = order[0].aisle;
 
-  //order.forEach( item => console.log ("aisle: ", item.aisle));
+  // 4. Caminha no Primeiro Corredor até o final
+  let sshape = order.filter((item) => item.aisle == i);
 
-  // Busca todas as Posicoes
+  // 5. Decide voltar pelo final do proximo corredor
+  let reverse = true;
 
-  // Busca o primeiro corredor
+  //6. Caminha pelos proximos corredores
+  for (i = i + 1; i <= 6; i++) {
+    // 7. Busca as posiçõess dos corredores
+    let aisle = order.filter((item) => item.aisle === i);
 
-  // Entra no corredor e caminha atgé o final
+    if (aisle) {
+      // 8. Caminha no próximo corredor do final para o inicio
+      if (reverse) {
+        aisle = aisle.reverse();
+        sshape = sshape.concat(aisle);
+        reverse = false;
+      }
+      // 9. Caminha no próximo corredor do inicio par ao final
+      else {
+        sshape = sshape.concat(aisle);
+        reverse = true;
+      }
+    }
+  }
 
-  // Retorna pelo final do corredor seguinte
-
-  // Retorn para ponto inicial
-
-  return order;
+  // Retorna a sequencia que o operador deve percorrer.
+  return sshape;
 };
 
 const getLocation = (items) => {
