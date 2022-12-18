@@ -1,7 +1,5 @@
 require("dotenv").config();
 
-const { log } = console;
-
 // Corredores 6
 
 exports.pick = async (order) => {
@@ -40,59 +38,6 @@ exports.pick = async (order) => {
 
   // Retorna a sequencia que o operador deve percorrer.
   return sshape;
-};
-
-const getLocation = (items) => {
-  let locations = [];
-  items.forEach((item) =>
-    locations.push({ aisle: item.aisle, location: item.location })
-  );
-  return locations;
-};
-
-const first = (items) => {
-  /* Array é vazio */
-  if (items.length === 0) {
-    log(" error: No items found");
-    return null;
-  }
-
-  /* Array contem somente um item */
-  if (items.length == 1) {
-    return items[0];
-  }
-
-  /* Array comtem varios items */
-  let first = null;
-  for (item of items) {
-    if (!first) {
-      first = item;
-    } else {
-      if (item.aisle < first.aisle && item.location > first.location) {
-        first = item;
-      }
-    }
-  }
-  return first;
-};
-
-const next = (items) => {
-  let item = items[0];
-  for (let i = 1; i < items.length; i++) {
-    item = minor(retorno, items[i]);
-  }
-  return item;
-};
-
-const minor = (a, b) => {
-  if (b.aisle < a.aisle) {
-    return b;
-  } else {
-    if (a.aisle === b.aisle && b.location < a.location) {
-      return b;
-    }
-  }
-  return a;
 };
 
 const compare = (a, b) => {
