@@ -37,7 +37,6 @@ exports.save = async (req, res, next) => {
 exports.find = async (req, res, next) => {
   try {
     const products = await Product.find({});
-    log(products);
     if (products) {
       res.status(200).json(products);
     }
