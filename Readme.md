@@ -34,11 +34,11 @@
 
  5. Execute the application.
 	```shell
-	yarn install && yarn deploy 
+	yarn install && yarn dev 
 	```
  
  ## Configuration
- You can configure the following parameters into the `configuration.properties` file. All the parameters are mandatory.
+ You can configure the following parameters into the `.env` file. All the parameters are mandatory.
 
    ###### Variaveis de Ambiente
    *`PORT`* : default 3000
@@ -53,8 +53,10 @@
 
  ## Requirements
  
- - [JavaScript 11](https://adoptopenjdk.net/index.html) or above.
- - [MongoDB Altas](https://maven.apache.org/index.html) or above.
+ - [JavaScript](https://www.javascript.com) or above.
+ - [MongoDB Altas](https://mongoosejs.com/) or above.
+ - [Mongoose](https://mongoosejs.com/) or above.
+ - [Node.js](https://nodejs.org/en/) or above.
 
 
  ## Troubleshooting
