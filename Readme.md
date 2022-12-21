@@ -1,9 +1,9 @@
 # S-Shape Heuristic
 
- [![JavaScript](Pbadge/Java-11-blue?logo=JavaScript&style=flat)](https://adoptopenjdk.net/index.html)
- [![NPM](https://img.shields.io/badge/npm/v/:8.11.0)](https://maven.apache.org/index.html)
+ <!-- [![JavaScript](Pbadge/Java-11-blue?logo=JavaScript&style=flat)](https://adoptopenjdk.net/index.html)
+ [![NPM](https://img.shields.io/badge/Maven-3.8.1-blue?logo=NPM&style=flat)](https://maven.apache.org/index.html)
  [![Snyk](https://img.shields.io/badge/Snyk-passed-green?logo=Snyk&style=flat)](https://snyk.io/)
- [![License](https://img.shields.io/badge/License-Apache_2.0-green?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+ [![License](https://img.shields.io/badge/License-Apache_2.0-green?style=flat)](https://www.apache.org/licenses/LICENSE-2.0) -->
 
  Implementa uma Heuristica de OrderPicking
 
