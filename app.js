@@ -34,18 +34,23 @@ app.use((req, res, next) => {
 });
 
 /* Picker */
-const Picker = require("./services/picker");
+const Picker = require("./services/sshape");
 
 
 /* Rotas */
 const ProductRouter = require("./routes/ProductRouter");
+const OrderRouter = require("./routes/OrderRouter");
 const PickRouter = require("./routes/PickRouter");
 
-app.get("/", Picker.pick);
 app.post("/products", ProductRouter);
+app.get("/picks/:cod", PickRouter);
+
 app.get("/products", ProductRouter);
 
-app.get("/picks/:cod", PickRouter);
+
+app.post("/orders", OrderRouter);
+app.get("/orders/:cod", OrderRouter);
+
 
 /* Rota não Encontrada */
 app.use((req, res, next) => {
