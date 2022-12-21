@@ -1,7 +1,5 @@
 require("dotenv").config();
 
-// Corredores 6
-
 exports.pick = async (order) => {
   // 1. Recebe uma ordem = lista de produtos
   // 2. Ordena a Ordem

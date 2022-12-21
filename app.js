@@ -8,7 +8,6 @@ const morgan = require("morgan");
 const app = express();
 const server = http.createServer(app);
 const { log } = console;
-
 /* Middlewares */
 app.use(express.json());
 app.use(cors());
