@@ -40,13 +40,9 @@ const Picker = require("./services/sshape");
 /* Rotas */
 const ProductRouter = require("./routes/ProductRouter");
 const OrderRouter = require("./routes/OrderRouter");
-const PickRouter = require("./routes/PickRouter");
 
 app.post("/products", ProductRouter);
-app.get("/picks/:cod", PickRouter);
-
-app.get("/products", ProductRouter);
-
+app.get("/products/:cod", ProductRouter);
 
 app.post("/orders", OrderRouter);
 app.get("/orders/:cod", OrderRouter);

@@ -5,6 +5,6 @@ const ProductController = require("../controllers/ProductController");
 
 /* Rotas */
 router.post('/products', ProductController.save);
-router.get('/products', ProductController.find);
+router.get('/products/:cod', ProductController.findOne);
 
 module.exports = router;
