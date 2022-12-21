@@ -1,0 +1,11 @@
+{
+    "cod": 2,
+    "products": [
+        {"cod":42239,"name":"ABIDOR 15ML SOL ORAL 1 CT X 200CT","fabricante":"AIRELA","aisle":5,"location":5},
+        {"cod":27243,"name":"GINO-COLON CREME VAG 1BGX45G","fabricante":"GEOLAB","aisle":4,"location":1},
+        {"cod":33386,"name":"CARDOMARIN 254MG C/20 CAPS","fabricante":"NATULAB","aisle":1,"location":2},
+        {"cod":43151,"name":"PROAPETIT BC SOL FR C/240ML","fabricante":"PHARLAB","aisle":5,"location":1},
+        {"cod":33685,"name":"BACTERACIN 400MG+80MG COMP C/20","fabricante":"TEUTO","aisle":3,"location":2},
+        {"cod":33896,"name":"POLARYN 2MG COMP C/20","fabricante":"TEUTO","aisle":3,"location":1}
+    ]
+}

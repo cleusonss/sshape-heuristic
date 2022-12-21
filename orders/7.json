@@ -1,0 +1,11 @@
+{
+    "cod": 7,
+    "products": [
+        {"cod":40911,"name":"VITAXON C TRIPL ACAO C/10 CP EFER X120CT","fabricante":"AIRELA","aisle":5,"location":2},
+        {"cod":45455,"name":"BRONXOL XPE INF 120ML","fabricante":"CIFARMA","aisle":1,"location":9},
+        {"cod":34988,"name":"POLTAX 50MG CX C/20 COMP REV","fabricante":"GEOLAB","aisle":4,"location":7},
+        {"cod":27672,"name":"MAXALGINA GOTAS 20ML","fabricante":"NATULAB","aisle":1,"location":3},
+        {"cod":48266,"name":"BETAMET+DIPRO FOS 5MG/ML C/1APX1ML","fabricante":"NEO QUÍMICA ","aisle":2,"location":3},
+        {"cod":28055,"name":"DOXICLIN 100MG C/15 COMP.","fabricante":"PHARLAB","aisle":5,"location":1}
+    ]
+}

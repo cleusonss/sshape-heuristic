@@ -1,0 +1,11 @@
+{
+    "cod": 4,
+    "products": [
+        {"cod":26163,"name":"CIMEGRIPE CX C/ 20 CAPS","fabricante":"CIMED","aisle":6,"location":9},
+        {"cod":27235,"name":"CIPRIX 500MG CX C/14 COMP. REV","fabricante":"GEOLAB","aisle":4,"location":7},
+        {"cod":47337,"name":"NITAZOXANIDA 20MG/ML SUSP. ORAL 45ML","fabricante":"GERMED","aisle":4,"location":6},
+        {"cod":27634,"name":"BRONQTRAT XPE INFANTIL 100ML","fabricante":"NATULAB","aisle":1,"location":2},
+        {"cod":27690,"name":"TYLEMAX BABY 100MG 15ML SABOR FRUTAS","fabricante":"NATULAB","aisle":1,"location":3},
+        {"cod":34178,"name":"VENAFLON 450+50MG COMP REV C/30 GEN","fabricante":"TEUTO","aisle":3,"location":1}
+    ]
+}

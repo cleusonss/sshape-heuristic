@@ -1,0 +1,11 @@
+{
+    "cod": 6,
+    "products": [
+        {"cod":37565,"name":"ENAN. NORETISTERONA 50MG/ML+ VAL. ESTRADIOL 5MG/ML","fabricante":"CIFARMA","aisle":1,"location":1},
+        {"cod":34014,"name":"FLORAX SM FRAMBOESA PEDIATRICO OR C/5 FLX 5ML","fabricante":"HEBRON","aisle":2,"location":8},
+        {"cod":26083,"name":"HEPATILON LIQUIDO 150ML","fabricante":"HERTZ","aisle":1,"location":1},
+        {"cod":45018,"name":"DELUMI D3 50.000 UI CX C/4 CPR REV","fabricante":"GEOLAB","aisle":4,"location":1},
+        {"cod":27656,"name":"IBUPROTRAT GOTAS 50MG 30ML SABOR FRAMBOESA","fabricante":"NATULAB","aisle":1,"location":2},
+        {"cod":28320,"name":"BUTACID 200MG C/ 20 DRÁGEAS","fabricante":"VITAMEDIC","aisle":2,"location":4}
+    ]
+}
