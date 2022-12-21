@@ -6,9 +6,9 @@ const Product = require("../models/Product");
 
 exports.save = async (req, res, next) => {
   try {
-    const { cod, name, aisle, location } = req.body;
+    const { cod, name, fabricante, aisle, location } = req.body;
 
-    if (!(cod && name && aisle && location)) {
+    if (!(cod && name && fabricante && aisle && location)) {
       res
         .status(401)
         .send({ status: "error", message: "Missing required fields" });
@@ -24,6 +24,7 @@ exports.save = async (req, res, next) => {
     const newProduct = await Product.create({
       cod,
       name,
+      fabricante,
       aisle,
       location,
     });

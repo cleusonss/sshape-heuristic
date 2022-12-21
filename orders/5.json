@@ -1,0 +1,11 @@
+{
+    "cod": 5,
+    "products": [
+        {"cod":35514,"name":"ACEVITON 1G VITAMINA C EFERV CX C/ 10 COMP ","fabricante":"CIMED","aisle":6,"location":9},
+        {"cod":24578,"name":"ESPARADRAPO IMP. 10CM X 4.5MT PROCITEX","fabricante":"CREMER","aisle":6,"location":4},
+        {"cod":44003,"name":"NIMESILAN GOTAS FRC/15ML ","fabricante":"EMS","aisle":5,"location":10},
+        {"cod":40965,"name":"CLOTRIMAZOL CREME DERM BG AL C/20G GEN.","fabricante":"GLOBO","aisle":5,"location":7},
+        {"cod":45299,"name":"SECNIDAZOL 1000MG C/04 COMP.","fabricante":"PHARLAB","aisle":5,"location":4},
+        {"cod":26281,"name":"BENZODERM EMULSÃO C/ 100ML","fabricante":"PHARMASCIENCE","aisle":2,"location":4}
+    ]
+}

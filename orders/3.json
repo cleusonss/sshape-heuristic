@@ -1,0 +1,11 @@
+{
+    "cod": 3,
+    "products": [
+        {"cod":30126,"name":"MICOSBEL POMADA 30G","fabricante":"BELFAR","aisle":2,"location":3},
+        {"cod":45501,"name":"VENOCEL 100 MG X 30 CAP","fabricante":"CIFARMA","aisle":1,"location":1},
+        {"cod":27682,"name":"PASTA DAGUA OXIDO ZINCO+MENTOL 25% X 80G","fabricante":"NATULAB","aisle":1,"location":2},
+        {"cod":41669,"name":"AZITROPHAR 500MG C/05 COMP.","fabricante":"PHARLAB","aisle":5,"location":3},
+        {"cod":34293,"name":"HELMIZOL 250MG COMP. C/20","fabricante":"TEUTO","aisle":3,"location":1},
+        {"cod":34158,"name":"TEUPANTOL 50MG/G POM 30G","fabricante":"TEUTO","aisle":3,"location":1}
+    ]
+}

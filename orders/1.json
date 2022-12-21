@@ -1,0 +1,11 @@
+{
+    "cod": 1,
+    "products": [
+        {"cod":41840,"name":"MAGMILK TRADICIONAL 100ML SUS ORAL","fabricante":"AIRELA","aisle":5,"location":3},
+        {"cod":42759,"name":"GRIPALCE - CX. C/ 20 CPS","fabricante":"BRASTERAPICA","aisle":1,"location":4},
+        {"cod":36432,"name":"GRIPEOL SOLUCAO ORAL 100ML","fabricante":"CIFARMA","aisle":1,"location":9},
+        {"cod":27259,"name":"OCUTIL 0,25MG/ML 1 FR X 15ML","fabricante":"GEOLAB","aisle":4,"location":4},
+        {"cod":50577,"name":"ALLOVITA 50MG/ML SOL CAPILAR FR50ML-L","fabricante":"LEGRAND","aisle":3,"location":5},
+        {"cod":33388,"name":"EXPECTOFLUI XAROPE 120ML","fabricante":"NATULAB","aisle":1,"location":2}
+    ]
+}

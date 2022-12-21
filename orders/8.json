@@ -1,0 +1,11 @@
+{
+    "cod": 8,
+    "products": [
+        {"cod":45936,"name":"CONDROFLAN ARTRIX 30 CPS 50 CT","fabricante":"AIRELA","aisle":5,"location":2},
+        {"cod":45490,"name":"POSLOV 1,5MG X 1 COMP","fabricante":"CIFARMA","aisle":1,"location":8},
+        {"cod":35042,"name":"IBULIV 400MG 2BLT C/ 4 CAPS GEL MOLES","fabricante":"EMS","aisle":5,"location":10},
+        {"cod":26404,"name":"DELTALAB LOCAO 100ML","fabricante":"MULTILAB","aisle":1,"location":6},
+        {"cod":29747,"name":"NEOSORO SOL. NASAL ADULTO 30ML","fabricante":"NEO QUÍMICA ","aisle":2,"location":3},
+        {"cod":43488,"name":"POLIMAIS MAIS IMUNIDADE 60 CAPS","fabricante":"NUTRIEX","aisle":5,"location":9}
+    ]
+}
