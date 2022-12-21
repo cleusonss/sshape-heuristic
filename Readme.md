@@ -1,9 +1,7 @@
 # S-Shape Heuristic
 
- <!-- [![JavaScript](Pbadge/Java-11-blue?logo=JavaScript&style=flat)](https://adoptopenjdk.net/index.html)
- [![NPM](https://img.shields.io/badge/Maven-3.8.1-blue?logo=NPM&style=flat)](https://maven.apache.org/index.html)
- [![Snyk](https://img.shields.io/badge/Snyk-passed-green?logo=Snyk&style=flat)](https://snyk.io/)
- [![License](https://img.shields.io/badge/License-Apache_2.0-green?style=flat)](https://www.apache.org/licenses/LICENSE-2.0) -->
+[![License](https://img.shields.io/badge/License-Apache_2.0-green?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+
 
  Implementa uma Heuristica de OrderPicking
 
@@ -54,7 +52,7 @@
  ## Requirements
  
  - [JavaScript](https://www.javascript.com) or above.
- - [MongoDB Altas](https://mongoosejs.com/) or above.
+ - [MongoDB Altas](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_amers-br_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624308&adgroup=115749705983&gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGHyRiZThbezHgyAYDSGWGkPJYY1xykrL2KdH44alZLkjQLbqPSTU8saAs4aEALw_wcB) or above.
  - [Mongoose](https://mongoosejs.com/) or above.
  - [Node.js](https://nodejs.org/en/) or above.
 
