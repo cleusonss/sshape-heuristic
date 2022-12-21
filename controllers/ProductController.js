@@ -17,7 +17,7 @@ exports.save = async (req, res, next) => {
     const savedProduct = await Product.findOne({ cod });
     if (savedProduct) {
       res
-        .status(401)
+        .status(402)
         .send({ status: "error", message: "Product already exists" });
     }
 
@@ -34,13 +34,14 @@ exports.save = async (req, res, next) => {
   }
 };
 
-exports.find = async (req, res, next) => {
+exports.findOne = async (req, res, next) => {
   try {
-    const products = await Product.find({});
-    if (products) {
-      res.status(200).json(products);
+    const { cod } = req.params;
+    const product = await Product.findOne({cod});
+    if (product) {
+      res.status(200).json(product);
     }
-    res.status(401).send({ status: "error", message: "Products nof found" });
+    res.status(402).send({ status: "error", message: "Product nof found" });
   } catch (error) {
     res.status(501).send({ status: "error", message: error.message });
   }
